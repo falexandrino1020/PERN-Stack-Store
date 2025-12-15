@@ -1,10 +1,10 @@
 {
-  "name": "PERN-Stack-Store",
+  "name": "pern-stack-store",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon backend/server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/falexandrino1020/PERN-Stack-Store/issues"
   },
-  "homepage": "https://github.com/falexandrino1020/PERN-Stack-Store#readme"
+  "homepage": "https://github.com/falexandrino1020/PERN-Stack-Store#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
 }
